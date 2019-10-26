@@ -11,33 +11,33 @@ int main(int argc, char *argv[])
 	 printf("calculadora");
 	 printf("1.-suma");
 	 printf("2.-resta");
-	 prinft("3.-multiplicacion");
-	 prinft("4-.division");
-	 prnft("5.-raiz cuadrada");
+	 printf("3.-multiplicacion");
+	 printf("4-.division");
+	 prinft("5.-raUpdate problema3.ciz cuadrada");
 	 scan("%i", &opc);
 	
-	 prinft("primer operador: ");
-	 scanft("%i", &op1);
-	 prinft("segundo operador: ");
-	 scanft("%i", &op2);
+	 printf("primer operador: ");
+	 scanf("%i", &op1);
+	 printf("segundo operador: ");
+	 scanf("%i", &op2);
 	}
 	switch(opc){
 	 
 	 case 1:
 	      resultado=op1+op2;
-	      prinf("el resultado de la suma es %i",resultado);
+	      printf("el resultado de la suma es %i",resultado);
 	      break;
 	 case 2:
 	 	  resultado= op1-op2;
-	 	  prinf("el resultado de la resta es %i",resultado);
+	 	  printf("el resultado de la resta es %i",resultado);
 	 	  break;
      case 3:
 	      resultado=op1*op2;
-		  prinf("el resultado de la multiplicacion es &i",resultado);
+		  printf("el resultado de la multiplicacion es &i",resultado);
 		  break;
 	 case 4:
 	      resultado=op1/op2;
-		  prinf("el resultado de la division es &i",resultado);
+		  printf("el resultado de la division es &i",resultado);
 	 
 	}
 return 0;
